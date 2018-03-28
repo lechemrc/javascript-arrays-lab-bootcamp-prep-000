@@ -22,13 +22,13 @@ function destructivelyRemoveFirstKitten (){
 }
 
 function appendKitten (name){
-  //var newKittens= kittens
-  var newKittens = kittens.concat("Broom");
-  return (newKittens);
+  var newKittensEnd = kittens.concat("Broom");
+  return (newKittensEnd);
 }
 
 function prependKitten (name){
-  kittens.push("Ralph");
+  var 
+  newKittensBeg = newKittensBeg.concat(kittens)
   return (kittens);
 }
 
