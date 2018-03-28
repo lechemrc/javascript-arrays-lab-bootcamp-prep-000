@@ -38,7 +38,7 @@ function removeLastKitten (){
 }
 
 function removeFirstKitten (){
-  var newFirstKittens = kittens.shift(0);
+  var newFirstKittens = kittens.shift(-2);
   return (newFirstKittens);
 }
 
