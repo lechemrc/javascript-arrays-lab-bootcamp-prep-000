@@ -27,9 +27,9 @@ function appendKitten (name){
 }
 
 function prependKitten (name){
-  var newKittensBeg = ["Bob"]
+  var newKittensBeg = ["Arnold"]
   newKittensBeg = newKittensBeg.concat(kittens)
-  return (kittens);
+  return (newKittensBeg);
 }
 
 function removeLastKitten (){
