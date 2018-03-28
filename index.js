@@ -2,13 +2,13 @@ const app = "I don't do much.";
 var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten (name){
-  kittens = kittens.push('Ralph');
-  //return (kittens);
-  kittens; 
+  kittens.push('Ralph');
+  return (kittens);
 }
 
 function destructivelyPrependKitten (name){
-  kittens = kittens.unshift("Bob");
+  kittens.unshift("Bob");
+  return (kittens);
 }
 
 function destructivelyRemoveLastKitten (){
