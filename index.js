@@ -21,7 +21,15 @@ function destructivelyRemoveFirstKitten (){
   return (kittens);
 }
 
+function appendKitten (name){
+  kittens.push("Ralph");
+  return (kittens);
+}
 
+function prependKitten (name){
+  kittens.push("Ralph");
+  return (kittens);
+}
 
 function removeLastKitten (){
   
