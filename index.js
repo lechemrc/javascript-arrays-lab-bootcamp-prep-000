@@ -27,7 +27,7 @@ function appendKitten (name){
 }
 
 function prependKitten (name){
-  var 
+  var newKittensBeg = ["Broom"]
   newKittensBeg = newKittensBeg.concat(kittens)
   return (kittens);
 }
